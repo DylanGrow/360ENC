@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Kendrick Pittman Jr
+N:Pittman;Kendrick;;;Jr
+item1.EMAIL;TYPE=INTERNET:Kendrick.pittman@360enc.com
+item1.X-ABLabel:
+item2.TEL:+12529073673
+item2.X-ABLabel:
+BDAY:--0814
+URL;TYPE=WORK:https\://www.360enc.com/
+item3.URL:https\://www.linkedin.com/in/kendrick-pittman-jr-825b04186/
+item3.X-ABLabel:PROFILE
+CATEGORIES:myContacts
+END:VCARD
