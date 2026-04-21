@@ -15,24 +15,25 @@
     html { scroll-behavior: smooth; font-size: 16px; scroll-padding-top: 80px; }
     body { font-family: 'DM Sans', sans-serif; background: var(--black); color: var(--warm-white); line-height: 1.6; overflow-x: hidden; }
     
+    /* Reveal & Typewriter Animations */
     .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s cubic-bezier(0.2, 1, 0.3, 1); }
     .reveal.active { opacity: 1; transform: translateY(0); }
-
-    /* Typewriter Logic */
     .typewriter-container { display: inline-block; border-right: 3px solid var(--accent-lime); padding-right: 5px; }
     .typewriter-text { overflow: hidden; white-space: nowrap; margin: 0; letter-spacing: .05em; animation: typing 3s steps(30, end), blink-caret .75s step-end infinite; }
     @keyframes typing { from { width: 0 } to { width: 100% } }
     @keyframes blink-caret { from, to { border-color: transparent } 50% { border-color: var(--accent-lime); } }
 
+    /* Navigation */
     nav { position: fixed; top: 0; width: 100%; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 5vw; background: rgba(13, 15, 14, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
     .nav-logo img { height: 45px; transition: 0.3s; }
     .nav-links { display: flex; gap: 2rem; list-style: none; align-items: center; }
     .nav-links a { font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--warm-white); text-decoration: none; }
     
-    /* Navigation Button POP */
+    /* Nav Button Pop */
     .nav-cta { background: var(--gold); color: var(--black) !important; padding: 10px 20px; border-radius: 4px; box-shadow: 0 4px 0 #ca8a04; transition: 0.2s !important; }
     .nav-cta:hover { transform: translateY(-3px) scale(1.05); box-shadow: 0 10px 20px rgba(250, 204, 21, 0.4); }
 
+    /* Hero */
     header.hero { min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; padding-top: 80px; }
     .hero-text { padding: 8%; display: flex; flex-direction: column; justify-content: center; z-index: 2; }
     h1 { font-family: 'DM Serif Display', serif; font-size: clamp(2.5rem, 6vw, 5rem); line-height: 1.0; margin-bottom: 1.5rem; }
@@ -42,7 +43,7 @@
     .btn-gold { background: var(--gold); color: var(--black); }
     .btn-gold:hover { transform: scale(1.05); box-shadow: 0 0 30px rgba(250, 204, 21, 0.6); }
 
-    /* Block Text */
+    /* Block Highlight */
     .block-highlight { border-left: 5px solid var(--accent-lime); padding: 2rem; margin: 2rem 0; background: rgba(163, 230, 53, 0.05); border-radius: 0 12px 12px 0; }
     .narrative-p { font-size: 1.25rem; max-width: 800px; margin-bottom: 2rem; opacity: 0.9; }
 
@@ -77,7 +78,7 @@
     <li><a href="#about">About</a></li>
     <li><a href="tel:2529073673">Call</a></li>
     <li><a href="sms:2529073673">Text Us</a></li>
-    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSctOZBX1ZW1wkZ8KwHqRfZGKP9jjmLVKMVADIcXsdCHxbjUzg/viewform?usp=header" target="_blank" class="nav-cta">Get Certified</a></li>
+    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfQEKegOwW29JYSSr5QCHBkUZ6hv7HjrYdbC-2tium4zESWxg/viewform?usp=header" target="_blank" class="nav-cta">Save Lives</a></li>
   </ul>
 </nav>
 
@@ -90,8 +91,8 @@
       <h1 style="margin-top: 15px;">FAFOO, First Aid &<br><em>CPR</em> Training</h1>
       <p class="narrative-p">360ENC is a statewide nonprofit serving all of North Carolina. We empower every resident with life-saving skills and professional resources for a resilient future.</p>
       <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSctOZBX1ZW1wkZ8KwHqRfZGKP9jjmLVKMVADIcXsdCHxbjUzg/viewform?usp=header" target="_blank" class="btn btn-gold">Save Lives Get Certified</a>
-        <a href="tel:2529073673" class="btn" style="border: 1px solid var(--warm-white); color: var(--warm-white);">Call: 252.907.3673</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSctOZBX1ZW1wkZ8KwHqRfZGKP9jjmLVKMVADIcXsdCHxbjUzg/viewform?usp=header" target="_blank" class="btn btn-gold">Get Certified Now</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfQEKegOwW29JYSSr5QCHBkUZ6hv7HjrYdbC-2tium4zESWxg/viewform?usp=header" target="_blank" class="btn" style="background: var(--accent-lime); color: var(--black);">Save Lives Survey</a>
       </div>
     </div>
     <div style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=2070') center/cover;"></div>
