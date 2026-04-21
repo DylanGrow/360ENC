@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>360 ENC — Building Healthy Communities across NC</title>
-  <meta name="description" content="360ENC is a statewide nonprofit specializing in community health, civic engagement, and advocacy. Serving all of North Carolina with life-saving skills.">
+  <meta name="description" content="360ENC is a statewide nonprofit specializing in community health, civic engagement, and advocacy. Save lives, get certified with our Essential Life Support Knowledge Assessment.">
   <link rel="icon" type="image/jpg" href="cpr_logo.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,9 +18,9 @@
     .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s cubic-bezier(0.2, 1, 0.3, 1); }
     .reveal.active { opacity: 1; transform: translateY(0); }
 
-    /* Typewriter Effect */
+    /* Typewriter Logic */
     .typewriter-container { display: inline-block; border-right: 3px solid var(--accent-lime); padding-right: 5px; }
-    .typewriter-text { overflow: hidden; white-space: nowrap; margin: 0; letter-spacing: .05em; animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite; }
+    .typewriter-text { overflow: hidden; white-space: nowrap; margin: 0; letter-spacing: .05em; animation: typing 3s steps(30, end), blink-caret .75s step-end infinite; }
     @keyframes typing { from { width: 0 } to { width: 100% } }
     @keyframes blink-caret { from, to { border-color: transparent } 50% { border-color: var(--accent-lime); } }
 
@@ -29,7 +29,7 @@
     .nav-links { display: flex; gap: 2rem; list-style: none; align-items: center; }
     .nav-links a { font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--warm-white); text-decoration: none; }
     
-    /* Nav Button Pop */
+    /* Navigation Button POP */
     .nav-cta { background: var(--gold); color: var(--black) !important; padding: 10px 20px; border-radius: 4px; box-shadow: 0 4px 0 #ca8a04; transition: 0.2s !important; }
     .nav-cta:hover { transform: translateY(-3px) scale(1.05); box-shadow: 0 10px 20px rgba(250, 204, 21, 0.4); }
 
@@ -40,10 +40,10 @@
     
     .btn { display: inline-block; padding: 1rem 2rem; font-weight: 700; text-transform: uppercase; border-radius: 4px; text-decoration: none; transition: 0.3s; cursor: pointer; border: none; text-align: center; }
     .btn-gold { background: var(--gold); color: var(--black); }
-    .btn-gold:hover { transform: scale(1.05); box-shadow: 0 0 25px rgba(250, 204, 21, 0.5); }
+    .btn-gold:hover { transform: scale(1.05); box-shadow: 0 0 30px rgba(250, 204, 21, 0.6); }
 
-    /* Block Text Styling */
-    .block-text { border-left: 5px solid var(--accent-lime); padding: 2rem 3rem; margin: 3rem 0; background: rgba(163, 230, 53, 0.05); border-radius: 0 15px 15px 0; }
+    /* Block Text */
+    .block-highlight { border-left: 5px solid var(--accent-lime); padding: 2rem; margin: 2rem 0; background: rgba(163, 230, 53, 0.05); border-radius: 0 12px 12px 0; }
     .narrative-p { font-size: 1.25rem; max-width: 800px; margin-bottom: 2rem; opacity: 0.9; }
 
     section { padding: 100px 8vw; }
@@ -51,14 +51,14 @@
     .pillar-item { padding: 30px; border: 1px solid var(--border); border-radius: 12px; transition: 0.4s; background: #121413; }
     .pillar-item:hover { border-color: var(--accent-lime); transform: translateY(-10px); background: #1a1d1b; }
 
-    /* Social Buttons POP */
-    .social-link { color: var(--black); background: var(--accent-lime); text-decoration: none; font-size: 0.8rem; font-weight: 900; padding: 14px 28px; border-radius: 50px; transition: 0.4s; text-transform: uppercase; display: inline-block; box-shadow: 0 5px 15px rgba(163, 230, 53, 0.2); }
-    .social-link:hover { transform: scale(1.2) rotate(-5deg); box-shadow: 0 0 30px var(--accent-lime); filter: brightness(1.1); }
+    /* Social Buttons MAX POP */
+    .social-link { color: var(--black); background: var(--accent-lime); text-decoration: none; font-size: 0.8rem; font-weight: 900; padding: 14px 28px; border-radius: 50px; transition: 0.4s; text-transform: uppercase; display: inline-block; box-shadow: 0 8px 20px rgba(163, 230, 53, 0.2); }
+    .social-link:hover { transform: scale(1.25) rotate(-5deg); box-shadow: 0 0 35px var(--accent-lime); filter: brightness(1.1); }
 
     footer { padding: 80px 8vw 40px; border-top: 1px solid var(--border); background: #090a0a; }
     .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 60px; }
-    .resource-link { color: white; text-decoration: none; display: block; margin-bottom: 12px; transition: 0.3s; }
-    .resource-link:hover { color: var(--gold); transform: translateX(5px); }
+    .resource-link { color: white; text-decoration: none; display: block; margin-bottom: 15px; transition: 0.3s; }
+    .resource-link:hover { color: var(--gold); transform: translateX(8px); }
 
     @media (max-width: 900px) {
       header.hero { grid-template-columns: 1fr; text-align: center; }
@@ -77,7 +77,7 @@
     <li><a href="#about">About</a></li>
     <li><a href="tel:2529073673">Call</a></li>
     <li><a href="sms:2529073673">Text Us</a></li>
-    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSctOZBX1ZW1wkZ8KwHqRfZGKP9jjmLVKMVADIcXsdCHxbjUzg/viewform?usp=header" target="_blank" class="nav-cta">Save A Life</a></li>
+    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSctOZBX1ZW1wkZ8KwHqRfZGKP9jjmLVKMVADIcXsdCHxbjUzg/viewform?usp=header" target="_blank" class="nav-cta">Get Certified</a></li>
   </ul>
 </nav>
 
@@ -87,11 +87,11 @@
       <div class="typewriter-container">
         <h2 class="typewriter-text" style="font-size: 1.5rem; color: var(--accent-lime);">Ready is being Prepared.</h2>
       </div>
-      <h1 style="margin-top: 10px;">FAFOO, First Aid &<br><em>CPR</em> Training</h1>
-      <p class="narrative-p">360ENC is a statewide nonprofit serving all of North Carolina. We empower communities by equipping every resident with the life-saving tools and clinical resources needed for a resilient future.</p>
+      <h1 style="margin-top: 15px;">FAFOO, First Aid &<br><em>CPR</em> Training</h1>
+      <p class="narrative-p">360ENC is a statewide nonprofit serving all of North Carolina. We empower every resident with life-saving skills and professional resources for a resilient future.</p>
       <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSctOZBX1ZW1wkZ8KwHqRfZGKP9jjmLVKMVADIcXsdCHxbjUzg/viewform?usp=header" target="_blank" class="btn btn-gold">Save A Life</a>
-        <a href="sms:2529073673" class="btn" style="border: 1px solid var(--warm-white); color: var(--warm-white);">Text Us: 252.907.3673</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSctOZBX1ZW1wkZ8KwHqRfZGKP9jjmLVKMVADIcXsdCHxbjUzg/viewform?usp=header" target="_blank" class="btn btn-gold">Save Lives Get Certified</a>
+        <a href="tel:2529073673" class="btn" style="border: 1px solid var(--warm-white); color: var(--warm-white);">Call: 252.907.3673</a>
       </div>
     </div>
     <div style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=2070') center/cover;"></div>
@@ -104,33 +104,25 @@
 
   <section id="about">
     <div class="reveal">
-      <h2 style="font-family: 'DM Serif Display'; font-size: 3.5rem; margin-bottom: 2rem;">A Mission for <em>All of NC.</em></h2>
-      <div class="block-text">
-        <p class="narrative-p" style="margin-bottom: 0;">360ENC specializes in building healthy communities through hands-on education and systemic support. We work across three fundamental pillars to ensure every North Carolinian has equal access to services and the skills required to save lives. From the coast to the mountains, our mission remains the same: ensuring readiness for all.</p>
+      <h2 style="font-family: 'DM Serif Display'; font-size: 3.5rem; margin-bottom: 2rem;">A Statewide Mission.</h2>
+      <div class="block-highlight">
+        <p class="narrative-p" style="margin-bottom: 0;">360ENC specializes in building healthy communities across North Carolina through hands-on education and systemic support. We bridge the gap to ensure equal access to life-saving skills. From the coast to the mountains, we empower North Carolinians to lead with readiness and resilience.</p>
       </div>
     </div>
     
     <div class="pillar-grid" id="pillars">
       <div class="pillar-item reveal">
-        <h4>Community Health</h4>
-        <p>Providing CPR, First Aid, and FAFOO training in partnership with Trillium Health Resources across all NC counties.</p>
+        <h4 style="color: var(--accent-lime); text-transform: uppercase; margin-bottom: 15px;">Community Health</h4>
+        <p>Providing CPR, First Aid, and FAFOO training statewide in partnership with Trillium Health Resources.</p>
       </div>
       <div class="pillar-item reveal">
-        <h4>Civic Engagement</h4>
-        <p>Empowering residents statewide to organize, participate in local governance, and strengthen community resilience.</p>
+        <h4 style="color: var(--accent-lime); text-transform: uppercase; margin-bottom: 15px;">Civic Engagement</h4>
+        <p>Empowering residents to participate in local governance and strengthen community resilience across NC.</p>
       </div>
       <div class="pillar-item reveal">
-        <h4>Advocacy & Policy</h4>
-        <p>Dismantling systemic barriers to create long-term equity and ensure resources reach those who need them most.</p>
+        <h4 style="color: var(--accent-lime); text-transform: uppercase; margin-bottom: 15px;">Advocacy & Policy</h4>
+        <p>Dismantling systemic barriers to ensure resources reach every corner of the state.</p>
       </div>
-    </div>
-  </section>
-
-  <section id="join" style="background: #111; text-align: center; padding: 120px 8vw;">
-    <div class="reveal">
-      <h2 style="font-family: 'DM Serif Display'; font-size: 3rem; margin-bottom: 2rem;">Join the Movement</h2>
-      <p class="narrative-p" style="margin: 0 auto 3rem;">Your involvement makes North Carolina stronger. Register for upcoming sessions or volunteer your time to help us reach every corner of the state.</p>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSctOZBX1ZW1wkZ8KwHqRfZGKP9jjmLVKMVADIcXsdCHxbjUzg/viewform?usp=header" target="_blank" class="btn btn-gold" style="padding: 1.5rem 3.5rem; font-size: 1.1rem;">Register: Save A Life</a>
     </div>
   </section>
 </main>
@@ -138,7 +130,7 @@
 <footer>
   <div class="footer-grid">
     <div>
-      <h3 style="font-family: 'DM Serif Display'; color: var(--accent-lime); font-size: 2rem; margin-bottom: 1rem;">360 ENC</h3>
+      <h3 style="font-family: 'DM Serif Display'; color: var(--accent-lime); font-size: 2rem; margin-bottom: 1.5rem;">360 ENC</h3>
       <div class="social-row">
         <a href="https://www.facebook.com/people/360-ENC/61577396484605/" class="social-link" target="_blank">FB</a>
         <a href="https://www.instagram.com/360.enc/" class="social-link" target="_blank">IG</a>
@@ -146,15 +138,16 @@
       </div>
     </div>
     <div>
-      <h4 style="color: var(--gold); text-transform: uppercase; font-size: 0.75rem; margin-bottom: 1.5rem;">Quick Links</h4>
-      <a href="https://www.eventbrite.com/o/360enc-113358325331" target="_blank" class="resource-link">Eventbrite Calendar</a>
+      <h4 style="color: var(--gold); text-transform: uppercase; font-size: 0.75rem; margin-bottom: 1.5rem;">Resources</h4>
+      <a href="https://www.eventbrite.com/o/360enc-113358325331" target="_blank" class="resource-link" style="color: var(--gold);">Eventbrite Calendar</a>
       <a href="mailto:info@360enc.com" class="resource-link">info@360enc.com</a>
       <a href="tel:2529073673" class="resource-link">Call: 252.907.3673</a>
+      <a href="sms:2529073673" class="resource-link">Text: 252.907.3673</a>
       <a href="360ENC.vcf" class="resource-link" style="color: var(--accent-lime); font-weight: 700;">Download vCard</a>
     </div>
     <div style="text-align: right;">
-      <p style="font-size: 0.85rem; opacity: 0.9;">Made by Dylan Grow 2026</p>
-      <p style="margin-top: 15px; font-size: 0.7rem; opacity: 0.5;">© 2026 360 ENC · 501(c)(3) Nonprofit · NC</p>
+      <p style="font-size: 0.9rem; opacity: 0.9;">Made by Dylan Grow 2026</p>
+      <p style="margin-top: 15px; font-size: 0.75rem; opacity: 0.5;">© 2026 360 ENC · 501(c)(3) Nonprofit · NC</p>
     </div>
   </div>
 </footer>
